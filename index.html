@@ -20,7 +20,7 @@
     <header class="container mx-auto">
        <!-- this is nav section  -->
        
-      <nav class="flex justify-between bg-[#F85559] rounded-[200px]">
+      <nav class="flex justify-between bg-[#F85559] rounded-[200px] my-6">
         <div class="flex justify-between items-center">                
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -37,7 +37,8 @@
               <li><a>Item 3</a></li>
             </ul>
           </div>
-          <div>
+          <div class="flex ml-4 lg:ml-60 ">
+            <img class="h-8 m-auto lg:w-12" src="./images/logo.png" alt="">
             <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
           </div>
           
@@ -45,7 +46,7 @@
           <div>
             <div class="navbar-end">
               <div class="hidden lg:w-[400px] lg:grid items-center mt-3">
-                <input type="text" placeholder="Type here" class="input input-bordered input-accent w-full max-w-xs rounded-[200px]" />
+                <input type="text" placeholder="Search here" class="input input-bordered input-accent w-full max-w-xs rounded-[200px]" />
               </div>
               <div class="navber-end">
                 <div class="dropdown">
@@ -62,6 +63,7 @@
                       </ul>
                     </li>
                     <li><a>Item 3</a></li>
+                    <li><input type="text" placeholder="Search here" class="input input-bordered input-accent rounded-[200px]" /></li>
                   </ul>
                 </div>            
           </div>
@@ -69,7 +71,7 @@
           </div>
       </nav>
         <!-- this is banner  -->
-        <section class="container mx-auto">
+        <section class="container mx-auto relative">
           <div class="carousel w-full">
             <div id="slide1" class="carousel-item relative w-full">             
                 <img src="./images/banner1.png" class="w-full" />
@@ -122,12 +124,38 @@
               </div>     
        <!-- this is last  -->
           </div>
+
+          <!-- position set  -->
+          <div class=" hidden lg:flex justify-center lg:w-[1160px] m-auto">
+            <div class="grid grid-cols-5 absolute  bg-white  -mt-16">
+              <div>
+                <img src="./images/fruit1.png" alt="">
+                <h1 class="text-center">Strawberry</h1>
+              </div>
+              <div>
+                <img src="./images/fruit2.png" alt="">
+                <h1 class="text-center">Orange</h1>
+              </div>
+              <div>
+                <img src="./images/fruit3.png" alt="">
+                <h1 class="text-center">Mango</h1>
+              </div>
+              <div>
+                <img src="./images/fruit4.png" alt="">
+                <h1 class="text-center">Strawberry</h1>
+              </div>
+              <div>
+                <img src="./images/fruit5.png" alt="">
+                <h1 class="text-center">Mango</h1>
+              </div>
+            </div>
+          </div>
         </section>
     </header>
     <!-- this is main section  -->
     <main class="container mx-auto">
       <!-- date section  -->
-      <section class="mt-10">
+      <section class="mt-10 lg:mt-40">
         <!-- this is date  -->
         <div class="flex flex-col lg:justify-between lg:flex-row space-y-2">
           <div class="text-center">
